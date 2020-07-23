@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head>
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+
+</head>
+
+<body>
+  <div id="game-container" class="center">
+    <div id="title" class="center">
+      <p>Tic Tac Toe</p>
+    </div>
+    <div id="canvas-container" class="center">
+    </div>
+    <div id="info-bar" class="center">
+      <p id="winner"></p>
+      <p>The Computer plays X</p>
+      <button id="reset-button">New Game</button>
+      <div class="form-inline">
+        <p id="difficulty-info">Level:    </p>
+        <input id="difficulty" type="number" max="5" min="1" value="5">
+      </div>
+      <p>Minimum Level:1</p>
+      <p>Maximum Level:5</p>
+
+
+    </div>
+  </div>
+  <script src="minimax.js"></script>
+  <script src="sketch.js"></script>
+
+
+</body></html>
