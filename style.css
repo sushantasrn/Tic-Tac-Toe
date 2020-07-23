@@ -1,6 +1,7 @@
 
 html,
 body {
+  background-color: #461F00;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -13,13 +14,13 @@ canvas {
 
 #canvas-container {
   width: fit-content;
-  background: Blue;
+  background: black;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 #game-container {
-  background: white;
+  background: #966F33;
   min-width: fit-content;
 }
 
@@ -59,7 +60,7 @@ canvas {
 }
 
 #title {
-  font-family: monospace;
+  font-family: serif;
   font-size: 64px;
   width: fit-content;
   text-align: center;
